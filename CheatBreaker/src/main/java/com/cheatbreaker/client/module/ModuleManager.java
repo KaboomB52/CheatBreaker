@@ -33,6 +33,7 @@ public class ModuleManager {
     public FPSModule fpsModule;
     public CPSModule cpsModule;
     public CoordinatesModule coordinatesModule;
+    public MotionBlurModule motionblurModule;
     public VoiceChat voiceChat;
     public TeammatesModule teammatesModule;
 
@@ -53,6 +54,7 @@ public class ModuleManager {
         modules.add(bossBar = new BossBarModule());
         modules.add(cpsModule = new CPSModule());
         modules.add(fpsModule = new FPSModule());
+        modules.add(motionblurModule = new MotionBlurModule());
         this.voiceChat = new VoiceChat();
         this.teammatesModule = new TeammatesModule();
         this.teammatesModule.lIIIIlIIllIIlIIlIIIlIIllI(true);
